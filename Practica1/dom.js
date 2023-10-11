@@ -24,16 +24,16 @@ $List[3].innerHTML = "Editar fotos";
 $List[4].style.color = "white";
 $List[4].innerHTML = "Jugar videojuegos";
 
-$Photo[1].src = "/Practica1/Facebook.png";
+$Photo[1].src = "./Facebook.png";
 $Photo[1].style.width = "100px";
 
-$Photo[2].src = "/Practica1/Instagram.png";
+$Photo[2].src = "./Instagram.png";
 $Photo[2].style.width = "100px";
 
-$Photo[3].src = "/Practica1/Github.png";
+$Photo[3].src = "./Github.png";
 $Photo[3].style.width = "100px";
 
-$Photo[4].src = "/Practica1/Youtube.png";
+$Photo[4].src = "./Youtube.png";
 $Photo[4].style.width = "100px";
 
 let $a = document.querySelectorAll("a");
