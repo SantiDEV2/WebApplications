@@ -4,7 +4,7 @@ $Name.style.textAlign = "center";
 $Name.innerHTML = "Santiago Mondragon Ramirez"; 
 
 let $Photo = document.querySelectorAll("img");
-$Photo[0].src = "/Practica1/Me.jpeg";
+$Photo[0].src = "./Me.jpeg";
 $Photo[0].style.width = "250px";
 
 let $Bio = document.querySelector("p");
