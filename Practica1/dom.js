@@ -12,7 +12,7 @@ $Bio.innerHTML = "Soy un estudiante de Amerike estudiando la carrera de creacion
 $Bio.style.color = "white";
 $Bio.style.textAlign = "center";
 
-let $List = document.querySelectorAll("li")
+let $List = document.querySelectorAll("li");
 $List[0].style.color = "white";
 $List[0].innerHTML = "Tocar Guitarra";
 $List[1].style.color = "white";
@@ -24,16 +24,16 @@ $List[3].innerHTML = "Editar fotos";
 $List[4].style.color = "white";
 $List[4].innerHTML = "Jugar videojuegos";
 
-$Photo[1].src = "/Practica1/Facebook.png"
+$Photo[1].src = "/Practica1/Facebook.png";
 $Photo[1].style.width = "100px";
 
-$Photo[2].src = "/Practica1/Instagram.png"
+$Photo[2].src = "/Practica1/Instagram.png";
 $Photo[2].style.width = "100px";
 
-$Photo[3].src = "/Practica1/Github.png"
+$Photo[3].src = "/Practica1/Github.png";
 $Photo[3].style.width = "100px";
 
-$Photo[4].src = "/Practica1/Youtube.png"
+$Photo[4].src = "/Practica1/Youtube.png";
 $Photo[4].style.width = "100px";
 
 let $a = document.querySelectorAll("a");
@@ -41,11 +41,11 @@ $a[0].href = "https://www.facebook.com/santiago.mondragon.792/";
 $a[0].target = "_blank"
 
 $a[1].href = "https://www.instagram.com/santy.m.r/";
-$a[1].target = "_blank"
+$a[1].target = "_blank";
 
 $a[2].href = "https://github.com/SantiDEV2";
-$a[2].target = "_blank"
+$a[2].target = "_blank";
 
 $a[3].href = "https://www.youtube.com/channel/UC9cjzCKef5weX0FnbuK1wfA";
-$a[3].target = "_blank"
+$a[3].target = "_blank";
 

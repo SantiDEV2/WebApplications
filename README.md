@@ -2,4 +2,4 @@
 
 ### Santiago Mondragon Ramirez
 
-[Practica1]()
+![Practica1]()
