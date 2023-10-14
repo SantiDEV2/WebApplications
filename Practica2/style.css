@@ -1,114 +1,73 @@
-:root{
-    --main-colortext:   rgb(252, 175, 23);
-    --accent-colortext: rgb(57, 92, 170);
-    --hover-colortext: rgb(73, 201, 242);
+:root {
+  --main-colortext: rgb(252, 175, 23);
+  --accent-colortext: rgb(57, 92, 170);
+  --hover-colortext: rgb(73, 201, 242);
 }
 
-html{
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poiret One', cursive;
+html {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poiret One", cursive;
 }
 
-hr{
-    border: 3px solid;
-    color: var(--hover-colortext);
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.maincolortext{
-    color: var(--main-colortext);
+.paddingLR {
+  padding-left: 20px;
+  padding-right: 20px;
+  vertical-align: top;
 }
 
-.accentcolortext{
-    color: var(--accent-colortext);
+.nav {
+  background-color: rgb(68, 68, 68);
+  height: 60px;
+  padding-top: 20px;
 }
 
-a:hover{
-    color: var(--hover-colortext);
+.dark-mode {
+  background-color: #222;
+  color: #eee;
 }
 
-.myGridContainer {  
-    display: grid;
-    grid-template-rows: 56px 1fr;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-}
-  
-.myGridChildren {  
-    display: grid; 
-    grid-template-columns: 256px 1fr; 
-    grid-template-rows: 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      "myMenu myContent"; 
-    grid-area: 2 / 1 / 3 / 2; 
+.space-mode {
+  background-image: url(/Practica2/Space.jpg);
+  color: #eee;
 }
 
-.myMenu {
-    grid-area: myMenu;
-    background-color: rgb(37, 37, 38);
-    min-height: calc(100vh - 56px);
+.ocean-mode {
+  background-color: darkblue;
+  color: cyan;
 }
 
-.myContent {
-    grid-area: myContent;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-.myNavbar{
-    grid-area: 1 / 1 / 2 / 2; 
-    background-color: rgb(44, 44, 44);
-    position: fixed; top: 0;
-    width: 100vw; 
-    overflow:hidden;
+.textCenter {
+  text-align: center;
 }
 
-.myImage{
-    width: 300px;
-    height: 300px;
-    border-radius: 60%;
+.btn {
+  padding: 10px;
+  width: 150px;
 }
 
-.myImagesmall{
-    width: 600px;
-    height: auto;
+.col4 {
+  columns: 4;
 }
 
-@media only screen and (min-width: 429px) {
-    .myNavbar{
-        display: none;
-    }
-    .myGridContainer
-    {
-        grid-template-rows: 0px 1fr;
-    }
-                            
+.h2 {
+  font-size: 22px;
 }
 
-@media only screen and (max-width: 428px) {
-    .myMenu {
-        display: none;
-    }
-
-    .myNavbar{
-        height: 30vh;
-    } 
-
-    .myImagesmall{
-        width: 150px;
-        height: auto;
-    } 
-
-    .myImage{
-        width: 150px;
-        height: 150px;
-    }
-
-    .myContent{
-        margin-top: 28vh;
-    }
-
-    .myGridChildren {
-        grid-template-columns: 0px 1fr; 
-    }
+.navLink
+{
+    color: #eee;
 }

@@ -3,25 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Practica2/style.css">
+    <link rel="icon" href="./favicon.ico">
     <title>Practica1</title>
 </head>
-<body style="background-color: black;">
+<body style="margin: 0;">
+    <nav class="nav">
+        <div>            
+            <img src="" alt="">
+            <a href="#Name" class="paddingLR navLink">Nombre y Foto</a>
+            <a href="#Descripcion" class="paddingLR navLink">Descripcion</a>
+            <a href="#Hobbies" class="paddingLR navLink">Hobbies</a>
+            <a href="#Redes" class="paddingLR navLink">Redes</a>
+            <a href="#Temas" class="paddingLR navLink">Temas</a>
+        </div>
+    </nav>
+
     <h1 id="Name"></h1>
-    <img>
-    <p></p>
-    <ol>
+    <img class="center" id="myImg">
+    <hr>
+    <p class="h2" id="Descripcion"></p>
+    <hr>
+    <ol class="textCenter h2" id="Hobbies">
         <li></li>
         <li></li>
         <li></li>
         <li></li>
         <li></li>
     </ol>
-    <ul>
-        <li><a><img></li>
-        <li><a><img></li>
-        <li><a><img></li>   
-        <li><a><img></li>
+    <hr>
+    <br><br><br>
+    <ul class="textCenter" style="padding: 0%;" id="Redes">
+        <li><a><img></a></li>
+        <li><a><img></a></li>
+        <li><a><img></a></li>   
+        <li><a><img></a></li>
     </ul>
-    <script src="./dom.js"></script>
+    <hr>
+    <br><br><br>
+    <div class="col4" id="Temas">
+        <button id="lighttheme" data-name="Claro" class="center btn">Tema Claro</button>
+        <button id="darktheme" data-name="Oscuro" class="center btn">Tema Oscuro</button>
+        <button id="galaxytheme" data-name="Espacio" class="center btn">Tema Espacio</button>
+        <button id="oceantheme" data-name="Oceano" class="center btn">Tema Oceano</button>
+    </div>
+    <br><br><br>
+    <div>
+        <script src="./dom.js"></script>
+        <script src="/Practica2/dom2.js"></script>
+    </div>
 </body>
 </html>
