@@ -3,7 +3,7 @@ $Name.style.textAlign = "center";
 $Name.innerHTML = "Santiago Mondragon Ramirez"; 
 
 let $Photo = document.querySelectorAll("img");
-$Photo[0].src = "/Practica2/Logo.png";
+$Photo[0].src = "../Practica2/Logo.png";
 $Photo[0].style.width = "80px"; 
 $Photo[1].src = "./Me.jpeg";
 $Photo[1].style.width = "250px"; 
