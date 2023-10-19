@@ -9,3 +9,5 @@
 
 [Practica 2 JS](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/Practica2/dom2.js)
 
+[Practica 3 y 4 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/Practica3/dom3.html)
+[Practica 3 y 4 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/Practica3/dom3.js)
