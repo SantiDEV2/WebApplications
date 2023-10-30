@@ -1,0 +1,11 @@
+.dark-mode {
+  background-color: #222;
+  color: #eee;
+}
+
+@media only screen and (min-width: 992px) {
+    .myCard{
+        width: 18rem !important;
+        margin-left: 500px !important;
+    }
+}
