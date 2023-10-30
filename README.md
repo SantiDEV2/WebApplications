@@ -14,3 +14,6 @@
 
 [Practica 5 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/Practica5/formulario.html)
 [Practica 5 JS](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/Practica5/form.js)
+
+[Practica 6 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/Practica6/ajax.html)
+[Practica 6 JS](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/Practica6/ajax.js)
