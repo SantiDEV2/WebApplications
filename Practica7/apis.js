@@ -1,3 +1,3 @@
-import { showArtist } from "./spotify.js";
+import { GetApiStuff } from "./api-info.js";
 
-showArtist("#search", "#albums");
+GetApiStuff();
