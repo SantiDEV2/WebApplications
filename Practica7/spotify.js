@@ -1,49 +1,38 @@
-export function showArtist()
-{
-    $albums = document.querySelector("#albums");
-    let spotifyAPI = "https://api.spotify.com/v1/albums";
+export function showArtist(search, selector) {
+  const d = document,
+    $albums = d.querySelector(selector),
+    $search = d.querySelector(search);
 
-    async function loadAlbums(url)
-    {
-        try {
-            $pokemons.innerHTML = `<span class="loader"></span>`;
-      
-            let res = await fetch(url);
-      
-            if (!res.ok) throw "Error al acceder a la API de Pokemons";
-      
-            let json = await res.json(),
-              $template = "",
-              $prevLink,
-              $nextLink;
-      
-            console.log(json);
-      
-            for (let i = 0; i < json.results.length; i++) {
-              //console.log(json.results[i]);
-              try {
-                let res = await fetch(json.results[i].url);
-      
-                if (!res.ok)
-                  throw `Error al cargar la información del pokemon ${json.results[i].name}`;
-      
-                let pokemon = await res.json();
-                //console.log(res, pokemon);
-      
-                $template += `
-                  <figure>
-                    <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}">
-                    <figcaption>${pokemon.name}</figcaption>
-                  </figure>
-                `;
-              } catch (error) {
-                //console.warn(error);
-                $template += `
-                  <figure>
-                    <figcaption><b>${error}</b></figcaption>
-                  </figure>
-                `;
-              }
-            }
+  $search.addEventListener("keyup", async (e) => {
+    if (e.key === "Enter") {
+      try {
+        $albums.innerHTML = `<span class="loader"></span>`;
+
+        let query = e.target.value.toLowerCase(),
+          res = await fetch(`https://api.spotify.com/v1/search?q=remaster%2520track%3ADoxy%2520artist%3A${$search}&type=`);
+          console.log(res);
+
+        if (!res.ok) throw "Error al acceder a la API de TV Maze";
+
+        let json = await res.json(),
+          $template = "";
+
+        console.log(query, json);
+        console.log($search)
+
+        json.forEach((el) => {
+
+        });
+
+        $albums.innerHTML = $template;
+      } catch (error) {
+        $albums.innerHTML = `<p><b>${error}</b></p>`;
+      }
     }
+  });
+
+  $search.addEventListener("search", (e) => {
+    console.log(e);
+    $albums.innerHTML = "";
+  });
 }
