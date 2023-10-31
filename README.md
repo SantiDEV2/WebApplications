@@ -17,3 +17,6 @@
 
 [Practica 6 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/Practica6/ajax.html)
 [Practica 6 JS](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/Practica6/ajax.js)
+
+[Practica 7 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/Practica7/apis.html)
+[Practica 7 JS](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/Practica7/apis.js)
