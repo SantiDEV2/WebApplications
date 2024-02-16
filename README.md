@@ -7,6 +7,9 @@
 ## Parcial 2
 [Practica 1 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica1/practica1.html)
 
+[Practica 2 HTML]()
+[Pagina Analizada](https://code.visualstudio.com/)
+
 
 ## Parcial 3
 [Practica 1 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/Practica1/dom.html)
