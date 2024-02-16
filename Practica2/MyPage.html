@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar bg-dark navbar-expand-lg">
+        <div class="container-fluid" style="width: 1170px;">
+            <a class="navbar-brand" href="#">
+                <img src="./IMG/VisualStudioCode.png" alt="main-image" width="30" height="auto">
+            </a>
+            <a class="navbar-brand text-light" href="#Home">Visual Studio Code</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-light" aria-current="page" href="#Docs">Docs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Updates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">API</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Extensions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Learn</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search docs" aria-label="Search">
+                    <button class="btn  bg-primary me-2 text-light" type="button">Download</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid bg-dark bg-opacity-75 text-center text-light py-2">
+        <div class="row">
+            <div class="col-12">
+                <a href="">Version 1.82</a>
+                is now available! Read about the new features and fixes from August.
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 text-center text-light" style="margin-top: 40px;">
+                    <p class="display-4">Code editing.</p>
+                    <p class="display-5"><b>Redefined</b></p>
+                    <p>Free. Built on open source. Runs everywhere.</p>
+                    <div class="btn-group">
+                        <button class="btn btn-primary btn-lg" type="button">
+                            <b>Download for Windows</b>
+                            <br>
+                            <h5>Stable build</h5>
+                        </button>
+                        <button type="button" class="btn btn-md btn-primary dropdown-toggle dropdown-toggle-split"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">macOS</a></li>
+                            <li><a class="dropdown-item" href="#">Windows x64</a></li>
+                            <li><a class="dropdown-item" href="#">Linux x64</a></li>
+                        </ul>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="bg-light bg-opacity-10 text-center rounded"
+                        style="margin-left:40px; margin-right: 40px;">
+                        <a href="">Web,</a>
+                        <a href="">Insiders edition,</a>
+                        or
+                        <a href="">other platforms</a>
+                    </div>
+                    <small>
+                        By using VS Code, you agree to its
+                        <br>
+                        <a href="#home-terms">license and privacy statement</a>
+                    </small>
+                </div>
+                <div class="col-lg-8 text-center">
+                    <img src="./IMG/HomeScreenshot.png" alt="home-screenshot" width="700px" height="auto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center align-middle mt-3">
+        <div class="row">
+            <div class="col-lg-3 col-6">
+                <a href="">
+                    <p>
+                        <img src="./IMG/Bulb.png" alt="IconBulb">
+                        <br>
+                        IntelliSense
+                    </p>
+                </a>
+            </div>
+            <div class="col-lg-3 col-6">
+                <a href="">
+                    <p>
+                        <img src="./IMG/Debug.png" alt="IconDebug">
+                        <br>
+                        Run and Debug
+                    </p>
+                </a>
+            </div>
+            <div class="col-lg-3 col-6">
+                <a href="">
+                    <p>
+                        <img src="./IMG/BuiltIn.png" alt="IconBuiltIn">
+                        <br>
+                        Built-in Git
+                    </p>
+                </a>
+            </div>
+            <div class="col-lg-3 col-6">
+                <a href="">
+                    <p>
+                        <img src="./IMG/Extensions.png" alt="IconExtensions">
+                        <br>
+                        Extensions
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="./IMG/Oscar.jpg" class="rounded-5" style="width: 72px; height: 72px; position: absolute;">
+                <div style="padding-left: 80px; padding-top: 10px;">
+                    <b>Oscar Nuñez</b><small>@OscarDEV</small>
+                    <p>VS <a href="">@code</a> does so many things right. I’m constantly impressed by the UX, and
+                        customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <img src="./IMG/Edgar.jpg" class="rounded-5" style="width: 72px; height: 72px; position: absolute;">
+                <div style="padding-left: 80px; padding-top: 10px;">
+                    <b>Edgar Pinto</b><small>@EdgarDEV</small>
+                    <p>VS Code will have deep remote development. You can connect to a container running a different OS
+                        and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥 </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <img src="./IMG/Edson.jpg" class="rounded-5" style="width: 72px; height: 72px; position: absolute;">
+                <div style="padding-left: 80px; padding-top: 10px;">
+                    <b>Edson Gutierrez</b><small>@EdsonDEV</small>
+                    <p>VS Code is my most used and favorite editor. I love being able to customize the editor - changing
+                        the layout, the icons, fonts and color scheme is so easy! </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="./IMG/Home-intellisense.svg" alt="IntelliSense" style="margin-left: 150px;">
+            </div>
+            <div class="col-lg-6" style="margin-top: 40px;">
+                <h2 class="fw-light">Meet IntelliSense</h2>
+                <br>
+                <h5 class="fw-lighter">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides
+                    smart completions based on variable types, function definitions, and imported modules. </h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-lg-6 order-lg-1">
+                <img src="./IMG/home-debug.svg" alt="Debug" style="margin-left: 150px;">
+            </div>
+            <div class="col-lg-6" style="margin-top: 40px;">
+                <h2 class="fw-light">Print statement debugging is a thing of the past.</h2>
+                <br>
+                <h5 class="fw-lighter">Debug code right from the editor. Launch or attach to your running apps and debug
+                    with break points, call stacks, and an interactive console.</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="./IMG/home-git.svg" alt="Git" style="margin-left: 150px">
+            </div>
+            <div class="col-lg-6" style="margin-top: 40px;">
+                <h2 class="fw-light">Git commands built-in.</h2>
+                <br>
+                <h5 class="fw-lighter">Working with Git and other SCM providers has never been easier. Review diffs,
+                    stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-lg-6 order-lg-1">
+                <img src="./IMG/Hundreds-of-Extensions.png" alt="Extensions" style="margin-left: 80px" width="80%"
+                    height="auto">
+            </div>
+            <div class="col-lg-6" style="margin-top: 40px;">
+                <h2 class="fw-light">Extensible and customizable.</h2>
+                <br>
+                <h5 class="fw-lighter">Want even more features? Install extensions to add new languages, themes,
+                    debuggers, and to connect to additional services. Extensions run in separate processes, ensuring
+                    they won't slow down your editor.<a href="">Learn more about extensions.</a></h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="./IMG/home-azure.svg" alt="Azure" style="margin-left: 150px;">
+            </div>
+            <div class="col-lg-6" style="margin-top: 40px;">
+                <h2 class="fw-light">Deploy with confidence and ease</h2>
+                <br>
+                <h5 class="fw-lighter">With <a href="">Microsoft Azure</a> you can deploy and host your React, Angular,
+                    Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale
+                    with serverless computing, all with ease,<a href="">all from within VS Code.</a></h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-center py-5 my-5">VS Code for</h2>
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-6" style="padding-right: 15px; padding-left: 15px;">
+                        <p class="fs-6">
+                            <img src="./IMG/JavaScript.png" width="auto" height="30px">
+                            JavaScript
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6" style="padding-right: 15px; padding-left: 15px;">
+                        <p class="fs-6">
+                            <img src="./IMG/Python.png" width="auto" height="30px">
+                            Python
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6" style="padding-right: 15px; padding-left: 15px;">
+                        <p class="fs-6">
+                            <img src="./IMG/Java.png" width="auto" height="30px">
+                            Java
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6" style="padding-right: 15px; padding-left: 15px;">
+                        <p class="fs-6">
+                            <img src="./IMG/Markdown.png" width="auto" height="30px">
+                            Markdown
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6" style="padding-right: 15px; padding-left: 15px;">
+                        <p class="fs-6">
+                            <img src="./IMG/Typescript.png" width="auto" height="30px">
+                            Typescript
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6" style="padding-right: 15px; padding-left: 15px;">
+                        <p class="fs-6">
+                            <img src="./IMG/C++.png" width="auto" height="30px">
+                            C/C++
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-6" style="padding-right: 15px; padding-left: 15px;">
+                        <p class="fs-6">
+                            <img src="./IMG/JSON.png" width="auto" height="30px">
+                            JSON
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6" style="padding-right: 15px; padding-left: 15px;">
+                        <p class="fs-6">
+                            <img src="./IMG/PowerShell.png" width="auto" height="30px">
+                            PowerShell
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6" style="padding-right: 15px; padding-left: 15px;">
+                        <p class="fs-6">
+                            <img src="./IMG/HTML.png" width="auto" height="30px">
+                            HTML/CSS
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6" style="padding-right: 15px; padding-left: 15px;">
+                        <p class="fs-6">
+                            <img src="./IMG/C.png" width="auto" height="30px">
+                            C#
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6" style="padding-right: 15px; padding-left: 15px;">
+                        <p class="fs-6">
+                            <img src="./IMG/PHP.png" width="auto" height="30px">
+                            PHP
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6" style="padding-right: 15px; padding-left: 15px;">
+                        <p class="fs-6">
+                            <img src="./IMG/YAML.png" width="auto" height="30px">
+                            YAML
+                        </p>
+                    </div>
+                </div>
+                <div class="text-center fs-5"><a href="">and many more languages on the Marketplace...</a></div>
+
+                <div class="text-center my-5">
+                    <button type="button" class="btn btn-primary btn-lg my-2" style="width: 200px; height: 60px;">Get
+                        Started Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-lg-4 text-center">
+                <img src="./IMG/Windows.png" alt="Windows" style="width: 100px; height: 100px;">
+                <br>
+                <button type="button" class="btn btn-primary btn-lg my-4" style="width: 250px; height: 70px;">
+                    <img src="./IMG/Download.png" alt="Download" style="width: 18px; height: 16px;">
+                    Windows
+                    <p><small>Windows 10, 11</small></p>
+                </button>
+                <div style="padding-left: 40px;">
+                    <table class="align-middle text-center">
+                        <tr>
+                            <td><b>User Installer</b></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">x64</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">x86</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Arm64</a></td>
+                        </tr>
+                        <tr>
+                            <td><b>System Installer</b></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">x64</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">x86</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Arm64</a></td>
+                        </tr>
+                        <tr>
+                            <td><b>.zip</b></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">x64</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">x86</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Arm64</a></td>
+                        </tr>
+                        <tr>
+                            <td><b>CLI</b></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">x64</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">x86</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Arm64</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="col-lg-4 text-center">
+                <img src="./IMG/Linux.png" alt="Windows" style="width: 100px; height: 100px;">
+                <br>
+                <div style="margin-top: 24px; margin-bottom: 24px;">
+                    <button type="button" class="btn btn-primary btn-lg" style="width: 160px; height: 70px;">
+                        <img src="./IMG/Download.png" alt="Download" style="width: 18px; height: 16px;">
+                        .deb
+                        <p><small>Debian, Ubuntu</small></p>
+                    </button>
+                    <button type="button" class="btn btn-primary btn-lg" style="width: 160px; height: 70px;">
+                        <img src="./IMG/Download.png" alt="Download" style="width: 18px; height: 16px;">
+                        .rpm
+                        <p><small>Red Hat,Fedora,SUBE</small></p>
+                    </button>
+                </div>
+                <div style="padding-left: 40px;">
+                    <table class="align-middle text-center">
+                        <tr>
+                            <td><b>.deb</b></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">x64</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Arm32</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Arm64</a></td>
+                        </tr>
+                        <tr>
+                            <td><b>.rmp</b></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">x64</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Arm32</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Arm64</a></td>
+                        </tr>
+                        <tr>
+                            <td><b>.tar.gz</b></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">x64</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Arm32</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Arm64</a></td>
+                        </tr>
+                        <tr>
+                            <td><b>Snap</b></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Snap Store</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>CLI</b></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">x64</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Arm32</a></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Arm64</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="col-lg-4 text-center">
+                <img src="./IMG/Apple.png" alt="Apple" style="width: 100px; height: 100px;">
+                <br>
+                <button type="button" class="btn btn-primary btn-lg my-4" style="width: 250px; height: 70px;">
+                    <img src="./IMG/Download.png" alt="Download" style="width: 18px; height: 16px;">
+                    Mac
+                    <p><small>macOs 10,11+</small></p>
+                </button>
+                <div style="padding-left: 40px;">
+                    <table class="align-middle text-center">
+                        <tr>
+                            <td><b>.zip</b></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Intel Chip</a>
+                            </td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Apple Silicon</a>
+                            </td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Universal</a></td>
+                        </tr>
+                        <tr>
+                            <td><b>CLI</b></td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Intel Chip</a>
+                            </td>
+                            <td><a href="" class="btn btn-primary" style="width: auto; height: 40px;">Apple Silicon</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="containter p-5">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <b class="fs-4">Want new features sooner?</h3></b>
+                <p>Get the <a href=""> Insiders build</a>instead.</p>
+            </div>
+            <div class="col-lg-6 text-center">
+                <b class="fs-4">Use <a href="">vscode.dev</a> for quick edits <br> online!</h3></b>
+                <p>GitHub, Azure Repos, and local files.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="containter p-5">
+        <div class="row">
+            <div class="col-lg-12 text-center" style="padding: 20px 25%; width: auto;">
+                <h3 class="my-3">License and Privacy Terms</h3>
+                <p style="line-height: 3rem;"> By downloading and using Visual Studio Code, you agree to the <a
+                        href="">license terms</a> and <a>privacy statement</a>. VS Code automatically sends telemetry
+                    data and crash dumps to help us improve the product. If you would prefer not to have this data sent
+                    please go see <a href="">How to Disable Crash Reporting</a> to learn how to disable it. Third party
+                    licenses for the CLI can be <a href="">found here</a>.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light" style="height: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="left col-lg-7">
+                    <div style="margin-top: 40px;">
+                        <p>
+                            Hello from Seattle
+                            <a class="px-3 text-light" href=""> Follow @code </a>
+                            <img src="./IMG/Github.png" alt="Github">
+                        </p>
+                    </div>
+                </div>
+                <div class="left col-lg-5">
+                    <div style="margin-top: 40px;">
+                        <p>
+                            <a class="text-light px-2   " href="">Support</a>
+                            <a class="text-light px-2   " href="">Privacy</a>
+                            <a class="text-light px-2   " href="">Terms of Use</a>
+                            <a class="text-light px-2   " href="">License</a>
+                            <img class="px-2" src="./IMG/Microsoft.png" alt="Microsoft" width="auto" height="20px"
+                                style="position: absolute;">
+                        </p>
+                        <p style="margin: 0%; padding-left: 295px;">© 2023 Microsoft</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
