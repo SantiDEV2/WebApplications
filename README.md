@@ -4,6 +4,13 @@
 
 [Pagina Web](https://santidev2.github.io/Parcial3-AplicacionesWeb/)
 
+## Parcial 1
+[Practica 1 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P1-Practica1/PracticaClase.html)
+
+[Practica 2 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P1-Practica1/Serie.html)
+
+[Practica 3 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P1-Practica1/Nosotros.html)
+
 ## Parcial 2
 [Practica 1 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica1/practica1.html)
 

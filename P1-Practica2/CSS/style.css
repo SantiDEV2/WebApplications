@@ -1,0 +1,26 @@
+html{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background-color: gray;
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: cyan;
+}
+
+h2{
+    color: lightsalmon;
+}
+
+.maxWidth{
+    max-width: 100%;
+}
+
+table{
+    width: 100%;
+}

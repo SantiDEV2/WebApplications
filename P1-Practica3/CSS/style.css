@@ -1,0 +1,48 @@
+:root{
+    --black-color: rgb(0,0,0);
+    --white-color: rgb(255,255,255);
+    --link-color: rgb(255,215,0);
+}
+
+html{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#Myimage{
+    width: 72px;
+    height: 128px;
+}
+
+a{
+    color: var(--link-color);
+}
+
+a:hover{
+    color: var(--white-color);
+}
+
+img,iframe,table{
+    max-width: 100%;
+}
+
+.border3double{
+    border: 3px;
+    border-style: double;
+    border-color: var(--white-color);
+}
+
+.textcenter{
+    text-align: center;
+}
+
+.linkcolor{
+    color: var(--link-color);
+}
+
+.border50{
+    border-radius: 50%;
+}
+
