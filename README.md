@@ -10,6 +10,10 @@
 [Practica 2 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica2/MyPage.html)
 [Pagina Analizada](https://code.visualstudio.com/)
 
+[Practica 3 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica3/Portafolio.html)
+
+[Practica 4 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica4/IntroJS.html)
+[Practica 4 JS](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica4/Practica4.js)
 
 ## Parcial 3
 [Practica 1 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/Practica1/dom.html)
