@@ -15,6 +15,18 @@
 [Practica 4 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica4/IntroJS.html)
 [Practica 4 JS](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica4/Practica4.js)
 
+[Practica 5 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica5/clases.html)
+[Practica 5 JS](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica5/Practica5.js)
+
+[Practica 6 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica6/reloj.html)
+[Practica 6 JS](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica6/Practica6.js)
+
+[Practica 7 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica7/factorial.html)
+[Practica 7 JS](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica7/Practica7.js)
+
+[Practica 8 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica8/Integracion.html)
+[Practica 8 JS](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P2-Practica8/Main.js)
+
 ## Parcial 3
 [Practica 1 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/Practica1/dom.html)
 [Practica 1 JS](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/Practica1/dom.js)
