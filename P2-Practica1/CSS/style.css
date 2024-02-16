@@ -1,0 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.imgsize{
+    width: 120px;
+    height: auto;
+}
