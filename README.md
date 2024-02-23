@@ -2,7 +2,7 @@
 
 ### Santiago Mondragon Ramirez
 
-[Pagina Web](https://santidev2.github.io/Parcial3-AplicacionesWeb/)
+[Pagina Web](https://santidev2.github.io/WebApplications/)
 
 ## Parcial 1
 [Practica 1 HTML](https://github.com/SantiDEV2/Parcial3-AplicacionesWeb/blob/main/P1-Practica1/PracticaClase.html)
